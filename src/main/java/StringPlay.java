@@ -13,6 +13,6 @@ public class StringPlay {
         } else {
             System.out.println("\""+input+"\" is not a number");
         }
-
+        System.out.println("Flipped Case: " + StringUtils.swapCase(input));
     }
 }
