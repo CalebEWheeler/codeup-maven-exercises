@@ -14,5 +14,6 @@ public class StringPlay {
             System.out.println("\""+input+"\" is not a number");
         }
         System.out.println("Flipped Case: " + StringUtils.swapCase(input));
+        System.out.println("Reversed: " + StringUtils.reverse(input));
     }
 }
